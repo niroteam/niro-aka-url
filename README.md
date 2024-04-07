@@ -33,13 +33,19 @@ cd Niro-AKA-URL
 npm install
 ```
 
-4. Start the server:
+4. Change Enviorment File:
+
+- Rename `.env.example` to `.env`
+- Change the MONGO to your connection string
+- Change the DEFAULT_URL to the default URL it will redirect to
+
+5. Run it
 
 ```bash
 npm start
 ```
 
-5. Access the application at `http://localhost:3000` in your web browser.
+6. Access the application at `http://localhost:3000` in your web browser.
 
 ## Usage
 
